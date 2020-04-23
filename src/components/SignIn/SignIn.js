@@ -72,7 +72,7 @@ export class SignIn extends Component {
             <div className="lh-copy mt3">
               <p onClick={() => onRouteChange('register')} className="f6 link dim black db pointer">Register</p>
             </div>
-            {this.state.signinSuccess === false && <p>Sign in failed, try again</p>}
+            {this.state.signinSuccess === false && <p className="light-red">Sign in failed, try again</p>}
           </div>
         </main>
       </article>
